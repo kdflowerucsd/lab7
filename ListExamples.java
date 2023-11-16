@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 interface StringChecker { boolean checkString(String s); }
-//testing
 class ListExamples {
 
   // Returns a new list that has all the elements of the input list for which
@@ -41,7 +40,7 @@ class ListExamples {
     while(index2 < list2.size()) {
       result.add(list2.get(index2));
       // change index1 below to index2 to fix test
-      index1 += 1;
+      index2 += 1;
     }
     return result;
   }
